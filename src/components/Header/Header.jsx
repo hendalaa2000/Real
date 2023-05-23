@@ -7,7 +7,7 @@ export default function Header() {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <Image src="/logo.png" />
+            <Image src="./logo.png" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" >

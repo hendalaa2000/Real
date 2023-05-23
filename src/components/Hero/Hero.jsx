@@ -54,7 +54,7 @@ export default function Hero() {
             </Col>
             <Col lg={6} md={12}>
               <div className="image-container animate__animated  animate__bounceInRight">
-                <Image src="/hero-image.png"  />
+                <Image src="./hero-image.png"  />
               </div>
             </Col>
           </Row>
