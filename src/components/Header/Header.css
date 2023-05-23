@@ -1,0 +1,61 @@
+.navbar {
+  background-color: var(--black);
+  position: relative;
+}
+.navbar img {
+  width: 100px;
+}
+.navbar .navbar-nav .nav-link {
+  color: var(--secondary);
+  font-size: 15px;
+  padding-right: 2rem;
+}
+.navbar .navbar-nav .nav-link:hover {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+}
+.navbar-toggler:not(.navbar-toggler.collapsed) .navbar-toggler-icon {
+  box-shadow: 0px 0px 0px grey;
+  background: rgba(0, 0, 0, 0);
+}
+.navbar-toggler:not(.navbar-toggler.collapsed) .navbar-toggler-icon::before {
+  top: 0px !important;
+  transform: rotate(45deg);
+}
+.navbar-toggler:not(.navbar-toggler.collapsed) .navbar-toggler-icon::after {
+  top: 0px !important;
+  transform: rotate(135deg);
+}
+.navbar-toggler .navbar-toggler-icon {
+  width: 23px;
+  height: 2px;
+  background: #ded7d7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+.navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 2px;
+  background: #ded7d7;
+  transition: 0.5s;
+}
+.navbar-toggler .navbar-toggler-icon::after {
+  top: -7px;
+  right: 0px;
+}
+.navbar-toggler .navbar-toggler-icon::before {
+  top: 7px;
+  right: 0px;
+}/*# sourceMappingURL=Header.css.map */

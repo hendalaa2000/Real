@@ -1,0 +1,14 @@
+.footer{
+    padding:30px 0;
+    .f-menu {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+        a{
+            color: #000;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+    
+}

@@ -1,0 +1,50 @@
+.c-wrapper {
+  padding: 60px 0;
+}
+.c-wrapper .contact-mode {
+  margin-top: 3rem;
+}
+.c-wrapper .contact-mode .mode {
+  width: 16rem;
+  padding: 1rem;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  margin: 0 auto 1.3rem auto;
+}
+.c-wrapper .contact-mode .mode:hover {
+  scale: 1.1;
+  box-shadow: var(--shadow);
+}
+.c-wrapper .contact-mode .mode .mode-t {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1rem;
+}
+.c-wrapper .contact-mode .mode .mode-t .icon {
+  padding: 10px;
+  background: #eeeeff;
+  border-radius: 5px;
+}
+.c-wrapper .contact-mode .mode .mode-t .icon svg {
+  fill: var(--blue);
+}
+.c-wrapper .contact-mode .mode .mode-t .primaryText {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.c-wrapper .contact-mode .mode .mode-button button {
+  width: 100%;
+  background: var(--lightBlue);
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: block;
+}
+.c-wrapper .contact-mode .mode .mode-button button:hover {
+  background: var(--blue-gradient);
+  color: #fff;
+  scale: 0.8;
+}/*# sourceMappingURL=Contact.css.map */

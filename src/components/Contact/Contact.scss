@@ -1,0 +1,55 @@
+.c-wrapper{
+    padding: 60px 0 ;
+    .contact-mode{
+        margin-top: 3rem;
+        .mode{
+            width: 16rem;
+            padding: 1rem;
+            border: 0.8px solid rgba(128,128,128,.143);
+            border-radius: 5px;
+            transition: all .3s ease-in;
+            margin:0 auto 1.3rem auto;
+            &:hover{
+                scale: 1.1;
+                box-shadow: var(--shadow);
+            }
+            .mode-t{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 1.6rem;
+                margin-bottom: 1rem;
+                .icon{
+                    padding: 10px;
+                    background: #eeeeff;
+                    border-radius: 5px;
+                    svg{
+                        fill: var(--blue);
+
+                    }
+                }
+                .primaryText
+                {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
+
+            }
+            .mode-button{
+                button{
+                    width: 100%;
+                    background: var(--lightBlue);
+                    color: var(--blue);
+                    font-size: .9rem;
+                    font-weight: 600;
+                    display: block;
+                    &:hover{
+                        background: var(--blue-gradient);
+                        color: #fff;
+                        scale: .8;
+                    }
+                }
+            }
+        }
+    }
+}

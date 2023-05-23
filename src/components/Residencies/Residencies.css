@@ -1,0 +1,64 @@
+.r-wrapper .r-head {
+  margin-bottom: 2rem;
+}
+.r-wrapper .swiper .swiper-slide .r-card {
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: auto;
+}
+.r-wrapper .swiper .swiper-slide .r-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(136, 160, 255, 0.46) 217.91%);
+  box-shadow: 0 72px 49px -51px rgba(136, 160, 255, 0.2117647059);
+}
+.r-wrapper .swiper .swiper-slide .r-card .r-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: block;
+  padding-top: 0.6rem;
+}
+.r-wrapper .swiper .swiper-slide .r-card .title {
+  font-size: 1.5rem;
+  display: block;
+  padding: 0.6rem 0;
+}
+.r-wrapper .swiper .swiper-slide .r-card .desc {
+  font-size: 0.7rem;
+  width: 15rem;
+  display: block;
+}
+.r-wrapper .swiper .swiper-slide .r-card img {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.c-Button {
+  position: absolute;
+  gap: 1rem;
+  top: -4rem;
+  right: 0;
+  display: flex;
+}
+.c-Button button {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: #00f;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.c-Button .prev {
+  background-color: #eef;
+}
+.c-Button .next {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2509803922);
+}
+
+.swiper-horizontal {
+  overflow: visible;
+}/*# sourceMappingURL=Residencies.css.map */

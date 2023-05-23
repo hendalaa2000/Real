@@ -1,0 +1,80 @@
+.r-wrapper {
+    .r-head {
+        margin-bottom: 2rem;
+    }
+
+    .swiper {
+        .swiper-slide {
+            .r-card {
+                padding: 1rem;
+                border-radius: 10px;
+                transition: all 0.3s ease-in;
+                max-width: max-content;
+                margin: auto;
+
+                &:hover {
+                    scale: 1.025;
+                    cursor: pointer;
+                    background: linear-gradient(180deg,
+                            rgba(255, 255, 255, 0) 0%,
+                            rgba(136, 160, 255, 0.46) 217.91%);
+                    box-shadow: 0 72px 49px -51px #88a0ff36;
+                }
+
+                .r-price {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    display: block;
+                    padding-top: 0.6rem;
+                }
+
+                .title {
+                    font-size: 1.5rem;
+                    display: block;
+                    padding: 0.6rem 0;
+                }
+
+                .desc {
+                    font-size: 0.7rem;
+                    width: 15rem;
+                    display: block;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 15rem;
+                }
+            }
+        }
+    }
+}
+
+.c-Button {
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 0;
+    display: flex;
+
+    button {
+        font-size: 1.2rem;
+        padding: 0.2rem 0.8rem;
+        color: #00f;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .prev {
+        background-color: #eef;
+    }
+
+    .next {
+        box-shadow: 0 0 5px 1px #00000040;
+    }
+}
+
+.swiper-horizontal {
+    overflow: visible;
+}
